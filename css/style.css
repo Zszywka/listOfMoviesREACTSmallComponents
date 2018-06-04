@@ -1,0 +1,111 @@
+body {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  background: url(../pictures/background.jpg), no-repeat;
+  background-size: 100%;
+}
+
+body .container {
+  width: 85%;
+  background-color: #ffda00;
+  margin: 102px auto 0 auto;
+  padding: 10px;
+}
+
+body h1 {
+  color: white;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 30px 0;
+  color: #fff;
+  padding-left: 1%;
+  text-align: left;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0;
+  box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.55);
+  text-shadow: 0 0 10px #fff;
+}
+
+body h2 {
+ color: #fff;
+ font-size: 40px;
+ text-shadow: 0 0 10px #fff;
+ margin-left: 50%;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 400;
+ text-align: left;
+ text-transform: uppercase;
+ font-size: 30px;
+ letter-spacing: 1px;
+}
+
+body li {
+  border: 5px solid #ffda00;
+  position: relative;
+  width: 800px;
+  height: 320px;
+  margin: 100px auto 0 auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.55);
+}
+
+body img {
+  box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.55);
+  float: left;
+  position: relative;
+  z-index: 0;
+  width: 40%;
+  height: 320px;
+  border-radius: 10px 0 0 10px;
+  -webkit-border-radius: 10px 0 0 10px;
+  -moz-border-radius: 10px 0 0 10px;
+}
+
+body p {
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 0 0 10px #fff;
+  margin-left: 50%;
+  margin-top: 2%;
+}
+
+body a {
+  color: #ffda00;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  border: 2px solid #ffda00;
+  padding: 10px;
+  font-size: 30px;
+  margin-left: 28%;
+  margin-bottom: 10%;
+  background-position: 7% 50%;
+  border-radius: 5px;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s;
+  position: absolute;
+  bottom: 20px;
+  margin: 30px 0 0 350px;
+}
+
+body a:hover {
+  color: #000000;
+  background-color: #ffda00;
+  background-image: url(../images/triangleb.png);
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  cursor: pointer;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s;
+}
