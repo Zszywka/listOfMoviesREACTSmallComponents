@@ -88,7 +88,7 @@ var MovieTrailer = React.createClass({
 
 // id movies
 var BoxMovies = movies.map(function(movie) {
-  return React.createElement(movie, {key: movie.id, movie: movie})
+  return React.createElement(Movie, {key: movie.id, movie: movie})
 });
 
 // gathering everything to the pile
