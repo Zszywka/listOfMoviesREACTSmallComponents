@@ -14,7 +14,8 @@ body .container {
 }
 
 body h1 {
-  color: white;
+  color: #fff;
+  background-color: #111;
   position: fixed;
   z-index: 1;
   top: 0;
