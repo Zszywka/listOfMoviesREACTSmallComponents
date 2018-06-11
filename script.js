@@ -84,7 +84,7 @@ var MovieTrailer = React.createClass({
     video: React.PropTypes.string.isRequired,
   },
   render: function() {
-    return React.createElement('a', {href: this.props.video}, 'Triler')
+    return React.createElement('a', {href: this.props.video}, 'Trailer')
   }
 });
 
